@@ -1,0 +1,4 @@
+baseURL = "http://example.org/"
+languageCode = "en-jp"
+title = "置き場"
+theme = "cactus"
