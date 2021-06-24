@@ -2,3 +2,36 @@ baseURL = "https://epic-sammet-9285ed.netlify.app/"
 languageCode = "en-jp"
 title = "置き場"
 theme = "cactus"
+copyright = "tobi00604"
+googleAnalytics = "tobi00604"
+
+[params]
+colortheme = "light"
+showAllPostsOnHomePage = false
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "[GitHub]"
+url = "https://github.com/tobi00604"
+weight = 3
+
+[[menu.main]]
+name = "[Qiita]"
+url = "https://qiita.com/tobi-on-central"
+weight = 4
+
+[[menu.main]]
+name = "[AtCoder]"
+url = "https://atcoder.jp/users/tobi00604"
+weight = 5
+
+
