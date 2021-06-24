@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://epic-sammet-9285ed.netlify.app/"
 languageCode = "en-jp"
 title = "置き場"
 theme = "cactus"
