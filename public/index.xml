@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tobi-homepage</title>
-    <link>https://epic-sammet-9285ed.netlify.app/</link>
-    <description>Recent content on tobi-homepage</description>
+    <title>tobi-pages</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on tobi-pages</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-jp</language>
-    <copyright>tobi00604</copyright><atom:link href="https://epic-sammet-9285ed.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <copyright> </copyright><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
