@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Second - tobi_pages</title>
+  <title>サガフロ プログラム習得方法検索ツール - tobi_pages</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,8 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="tobi" /><meta name="description" content="piyopiyo" /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="tobi" /><meta name="description" content="ツールを作りました。 ゲーム「サガフロンティア リマスター」で、メカに新しくプログラムを習得させたいときに何の敵と戦えばいいか検索できます。
+" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
@@ -39,20 +40,23 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="Second" />
-<meta property="og:description" content="piyopiyo" />
+<meta property="og:title" content="サガフロ プログラム習得方法検索ツール" />
+<meta property="og:description" content="ツールを作りました。
+ゲーム「サガフロンティア リマスター」で、メカに新しくプログラムを習得させたいときに何の敵と戦えばいいか検索できます。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/post/second/" /><meta property="article:section" content="post" />
 
 
 
-<meta itemprop="name" content="Second">
-<meta itemprop="description" content="piyopiyo">
+<meta itemprop="name" content="サガフロ プログラム習得方法検索ツール">
+<meta itemprop="description" content="ツールを作りました。
+ゲーム「サガフロンティア リマスター」で、メカに新しくプログラムを習得させたいときに何の敵と戦えばいいか検索できます。">
 
-<meta itemprop="wordCount" content="1">
+<meta itemprop="wordCount" content="213">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Second"/>
-<meta name="twitter:description" content="piyopiyo"/>
+<meta name="twitter:title" content="サガフロ プログラム習得方法検索ツール"/>
+<meta name="twitter:description" content="ツールを作りました。
+ゲーム「サガフロンティア リマスター」で、メカに新しくプログラムを習得させたいときに何の敵と戦えばいいか検索できます。"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -62,6 +66,20 @@
   <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
 <![endif]-->
+
+
+
+
+  <script src="//localhost:1313/js/pgList.js"></script>
+
+  <script src="//localhost:1313/js/jquery-1.10.2.min.js"></script>
+
+  <script src="//localhost:1313/js/jquery-ui-1.10.3.custom.min.js"></script>
+
+  <script src="//localhost:1313/js/sfmain.js"></script>
+
+  <script src="//localhost:1313/js/mecList.js"></script>
+
 
 </head>
 <body>
@@ -125,7 +143,7 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">Second</h1>
+      <h1 class="post-title">サガフロ プログラム習得方法検索ツール</h1>
 
       <div class="post-meta">
         
@@ -134,15 +152,90 @@
       </div>
     </header>
 
-    <div class="post-toc" id="post-toc">
-  <h2 class="post-toc-title">Contents</h2>
-  <div class="post-toc-content always-active">
-    <nav id="TableOfContents"></nav>
-  </div>
-</div>
+    
     <div class="post-content">
-      <p>piyopiyo</p>
+      <p>ツールを作りました。
+ゲーム「サガフロンティア リマスター」で、メカに新しくプログラムを習得させたいときに何の敵と戦えばいいか検索できます。</p>
+<p>メカのタイプのボタンをクリックすると、習得可能なプログラムが一覧表示されます。<br>
+そこからプログラムをひとつ選んでクリックすると、そのプログラムの習得方法が表示されます。</p>
+<hr>
 
+<table>
+	<tr>
+		<td><div id="mecTable"></div></td>
+	</tr>
+</table>
+
+
+
+<ul>
+
+	<li style="display: inline-block; vertical-align: top;">
+		<ul id="pgTable"></ul>
+	</li>
+	
+	<li style="display: inline-block; vertical-align: top;">
+		<table border="1" id="infoTable">
+			<tr>
+				<td colspan="2" align="center" id="pgTitle" bgcolor="#DDDDDD">
+				</td>
+			</tr>
+			<tr>
+				<td align="center" align="center" width="30px" bgcolor="#EEEEEE">
+					A<br>枠
+				</td>
+				<td>
+					<ul class="infoList" id="infoListA">
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td align="center" align="center" width="30px" bgcolor="#EEEEEE">
+					B<br>枠
+				</td>
+				<td>
+					<ul class="infoList" id="infoListB">
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td align="center" align="center" width="30px" bgcolor="#EEEEEE">
+					C<br>枠
+				</td>
+				<td>
+					<ul class="infoList" id="infoListC">
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td align="center" align="center" width="30px" bgcolor="#EEEEEE">
+					D<br>枠
+				</td>
+				<td>
+					<ul class="infoList" id="infoListD">
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td align="center" align="center" width="30px" bgcolor="#EEEEEE">
+					自<br>己
+				</td>
+				<td>
+					<ul class="infoList" id="infoListSelf">
+					</ul>
+				</td>
+			</tr>
+		</table>
+	</li>
+	
+</ul>
+
+
+<hr>
+<p>（参考サイト）<br>
+<a href="https://kamikouryaku.com/saga_frontier/?%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0"><strong>・プログラム - サガフロンティア リマスター | 神攻略wiki</strong></a><br>
+<a href="https://wikiwiki.jp/sagadic/%E5%AD%A6%E7%BF%92%E4%B8%80%E8%A6%A7/SF1"><strong>・学習一覧/SF1 - サガ用語辞典 Wiki</strong>*</a></p>
+<hr>
     </div>
 
     

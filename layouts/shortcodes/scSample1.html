@@ -1,0 +1,12 @@
+<div style="color:blue; font-size:24px;">
+    サンプル１－１
+</div>
+<div style="color:blue; font-size:{{ .Get `size` }};">
+    サンプル１－２
+</div>
+<div style="color:{{ .Get `color` }}; font-size:24px;">
+    サンプル１－３
+</div>
+<div style="color:{{ .Get `color` }}; font-size:{{ .Get `size` }};">
+    サンプル１－４
+</div>
