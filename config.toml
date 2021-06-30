@@ -50,15 +50,19 @@ copyright = " "            # default: author.name ↓        # 默认为下面�
 #   url = "/categories/"
 
 [[menu.main]]
-  name = "👉GitHub"
+  name = "👉TOP"
+  weight = 1
+  url = "/"
+[[menu.main]]
+  name = "👉[GitHub]"
   weight = 10
   url = "https://github.com/tobi00604"
 [[menu.main]]
-  name = "👉Qiita"
+  name = "👉[Qiita]"
   weight = 20
   url = "https://qiita.com/tobi-on-central"
 [[menu.main]]
-  name = "👉AtCoder"
+  name = "👉[AtCoder]"
   weight = 30
   url = "https://atcoder.jp/users/tobi00604"
 

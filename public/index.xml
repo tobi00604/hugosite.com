@@ -22,7 +22,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/post/second/</guid>
-      <description>piyo</description>
+      <description>piyopiyo</description>
     </item>
     
     <item>
@@ -32,6 +32,15 @@
       
       <guid>http://localhost:1313/post/third/</guid>
       <description>&lt;p&gt;pi&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fourth</title>
+      <link>http://localhost:1313/post/fourth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/fourth/</guid>
+      <description>pipipi</description>
     </item>
     
   </channel>
