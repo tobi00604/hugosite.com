@@ -3,11 +3,11 @@ title: "サガフロ プログラム習得方法検索ツール"
 draft: false
 weight: 2
 page_js : [
-  "//localhost:1313/js/pgList.js",
-  "//localhost:1313/js/jquery-1.10.2.min.js",
-  "//localhost:1313/js/jquery-ui-1.10.3.custom.min.js",
-  "//localhost:1313/js/sfmain.js",
-  "//localhost:1313/js/mecList.js"
+  "//epic-sammet-9285ed.netlify.app/js/pgList.js",
+  "//epic-sammet-9285ed.netlify.app/js/jquery-1.10.2.min.js",
+  "//epic-sammet-9285ed.netlify.app/js/jquery-ui-1.10.3.custom.min.js",
+  "//epic-sammet-9285ed.netlify.app/js/sfmain.js",
+  "//epic-sammet-9285ed.netlify.app/js/mecList.js"
 ]
 ---
 
