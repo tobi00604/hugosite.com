@@ -8,40 +8,22 @@
     <language>en</language>
     <copyright>tobi</copyright><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First</title>
-      <link>http://localhost:1313/post/first/</link>
+      <title>当サイトについて</title>
+      <link>http://localhost:1313/post/introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/first/</guid>
-      <description>piyopiyo</description>
+      <guid>http://localhost:1313/post/introduction/</guid>
+      <description>&lt;p&gt;当サイトはブログ風サイトです。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>サガフロ プログラム習得方法検索ツール</title>
-      <link>http://localhost:1313/post/second/</link>
+      <link>http://localhost:1313/post/sagaf_tool/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/second/</guid>
+      <guid>http://localhost:1313/post/sagaf_tool/</guid>
       <description>&lt;p&gt;ツールを作りました。
 ゲーム「サガフロンティア リマスター」で、メカに新しくプログラムを習得させたいときに何の敵と戦えばいいか検索できます。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Third</title>
-      <link>http://localhost:1313/post/third/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/third/</guid>
-      <description>&lt;p&gt;pi&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Fourth</title>
-      <link>http://localhost:1313/post/fourth/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/fourth/</guid>
-      <description>pipipi</description>
     </item>
     
   </channel>

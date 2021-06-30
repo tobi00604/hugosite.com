@@ -21,15 +21,15 @@ page_js : [
 
 ***
 
-{{< scSample3 >}}
+{{< scInner >}}
 <table>
 	<tr>
 		<td><div id="mecTable"></div></td>
 	</tr>
 </table>
-{{< /scSample3 >}}  
+{{< /scInner >}}  
 
-{{< scSample3 >}}
+{{< scInner >}}
 <ul>
 
 	<li style="display: inline-block; vertical-align: top;">
@@ -91,7 +91,7 @@ page_js : [
 	</li>
 	
 </ul>
-{{< /scSample3 >}}  
+{{< /scInner >}}  
 
 ***
 
