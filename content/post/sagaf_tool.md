@@ -3,11 +3,16 @@ title: "サガフロ プログラム習得方法検索ツール"
 draft: false
 weight: 2
 page_js : [
-  "//epic-sammet-9285ed.netlify.app/js/pgList.js",
-  "//epic-sammet-9285ed.netlify.app/js/jquery-1.10.2.min.js",
-  "//epic-sammet-9285ed.netlify.app/js/jquery-ui-1.10.3.custom.min.js",
-  "//epic-sammet-9285ed.netlify.app/js/sfmain.js",
-  "//epic-sammet-9285ed.netlify.app/js/mecList.js"
+# "//localhost:1313/js/sagaf_tool/pgList.js",
+# "//localhost:1313/js/sagaf_tool/jquery-1.10.2.min.js",
+# "//localhost:1313/js/sagaf_tool/jquery-ui-1.10.3.custom.min.js",
+# "//localhost:1313/js/sagaf_tool/sfmain.js",
+# "//localhost:1313/js/sagaf_tool/mecList.js",
+ "//epic-sammet-9285ed.netlify.app/js/sagaf_tool/pgList.js",
+ "//epic-sammet-9285ed.netlify.app/js/sagaf_tool/jquery-1.10.2.min.js",
+ "//epic-sammet-9285ed.netlify.app/js/sagaf_tool/jquery-ui-1.10.3.custom.min.js",
+ "//epic-sammet-9285ed.netlify.app/js/sagaf_tool/sfmain.js",
+ "//epic-sammet-9285ed.netlify.app/js/sagaf_tool/mecList.js",
 ]
 ---
 

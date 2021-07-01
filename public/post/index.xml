@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on tobi_pages</title>
+    <title>Posts on 製作物 置き場</title>
     <link>http://localhost:1313/post/</link>
-    <description>Recent content in Posts on tobi_pages</description>
+    <description>Recent content in Posts on 製作物 置き場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>tobi</copyright><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/post/introduction/</guid>
-      <description>&lt;p&gt;当サイトはブログ風サイトです。&lt;/p&gt;</description>
+      <description>&lt;p&gt;当サイトについてです。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -24,6 +24,16 @@
       <guid>http://localhost:1313/post/sagaf_tool/</guid>
       <description>&lt;p&gt;ツールを作りました。
 ゲーム「サガフロンティア リマスター」で、メカに新しくプログラムを習得させたいときに何の敵と戦えばいいか検索できます。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ミンサガ 技ひらめき派生検索ツール</title>
+      <link>http://localhost:1313/post/msaga_tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/msaga_tool/</guid>
+      <description>&lt;p&gt;ツールを作りました。
+ゲーム「ロマンシングサガ ミンストレルソング」で、技ひらめきの派生元・派生先を検索できます。&lt;/p&gt;</description>
     </item>
     
   </channel>
